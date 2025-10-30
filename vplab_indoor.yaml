@@ -1,0 +1,30 @@
+path: /Users/rn/yolo11_v1.1/data/vplab_indoor
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  - backpack
+  - bed
+  - bicycle
+  - book
+  - bottle
+  - bowl
+  - "cell phone"
+  - chair
+  - clock
+  - couch
+  - cup
+  - "dining table"
+  - handbag
+  - keyboard
+  - knife
+  - laptop
+  - mouse
+  - person
+  - "potted plant"
+  - scissors
+  - tv
+  - umbrella
+  - vase
+  - "wine glass"

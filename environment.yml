@@ -1,0 +1,23 @@
+name: yolo11_v1.1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pillow
+  - matplotlib
+  - opencv
+  - jupyterlab
+  - scikit-learn
+  - tqdm
+  - pandas
+  - pip:
+      - ultralytics>=8.3.0
+      - huggingface_hub
+      - safetensors
+      - onnxruntime
+      - coremltools
+      - tensorboard
+
