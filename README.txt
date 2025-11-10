@@ -1,8 +1,30 @@
-# YOLO11 V1.1 – Indoor Object Detection
+# YOLO11 V1.1 – Object Detection
 
-This project fine-tunes the YOLO11 model for indoor object detection using custom Roboflow data and other pics captured.
+This project fine-tunes the YOLO11 model for object detection using custom data and other pics captured.
 
 ---
+Folder structure:
+~/CV/yolo/
+├─ data/                         
+├─ dataset/             
+│  ├─ train/
+│  │   ├─ images/
+│  │   └─ annotations.json  (optional if Roboflow uses one global file)
+│  ├─ val/
+│  │   ├─ images/
+│  │   └─ annotations.json
+│  └─ test/
+│      ├─ images/
+│      └─ annotations.json
+├─ test_images/
+├─ data.yaml                  
+├─ outputs/
+├─ weights/
+├─ scripts/
+│   ├─ readme.txt
+│   └─ enviornment.yml
+├─ readme.txt
+└─ enviornment.yml
 
 ## 🧩 Setup
 
