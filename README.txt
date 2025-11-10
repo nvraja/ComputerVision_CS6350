@@ -32,6 +32,3 @@ Folder structure:
 # Create and activate environment
 conda env create -f environment.yml
 conda activate yolo11
-
-# Launch JupyterLab
-jupyter lab
